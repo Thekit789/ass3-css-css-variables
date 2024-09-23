@@ -4,4 +4,42 @@
   margin: 0;
 }
 
-/* Start coding here */
+/* Start coding kit */
+
+:root {
+  --Branding-Color: #ff7f50;
+  --Secondary-Color: cornsilk;
+  --Highlight-Color: #d2691e;
+  --Muted-Color: #a9a9a9;
+
+  --Margin-Level-1: 1px;
+  --Margin-Level-2: 5px;
+  --Margin-Level-3: 10px;
+  --Margin-Level-4: 15px;
+  --Margin-Level-5: 20px;
+
+  --Padding-Level-5: 1px;
+  --Padding-Level-2: 5px;
+  --Padding-Level-3: 10px;
+  --Padding-Level-4: 15px;
+  --Padding-Level-5: 20px;
+
+  --Font-Size-Small: 12px;
+  --Font-Size-Medium: 16px;
+  --Font-Size-Large: 20px;
+  --Font-Size-Extra-Large: 30px;
+  --Font-Size-Double-Extra-Large: 50px;
+  --Font-Size-Triple-Extra-Large: 100px;
+}
+
+.introduction {
+  background-color: var(--Secondary-Color);
+  padding: var(--Padding-Level-5);
+}
+
+h1 {
+  color: var(--Branding-Color);
+  font-size: var(--Font-Size-Triple-Extra-Large);
+}
+
+/* End coding kit */
